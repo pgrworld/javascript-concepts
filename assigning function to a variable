@@ -1,0 +1,9 @@
+// assigning function to a variable(if function returns anything then only we are assigning to a variable)
+
+function myFunction(text){
+   return text;
+}
+
+var someImportText = myFunction("importing sometext document")
+
+console.log(someImportText);
