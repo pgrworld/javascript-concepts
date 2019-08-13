@@ -1,0 +1,10 @@
+var obj = new Object();
+obj.name = "gowrav";
+obj.age = "23";
+obj.desgination = "node js developer";
+obj.location = "hyderabad"
+
+console.log(obj.name)
+console.log(obj.location)
+//NOTE : output is=>gowrav
+//                  hyderabad

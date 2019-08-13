@@ -1,0 +1,10 @@
+//function constructor
+var myFunction = new Function("a","b","return a*b");
+console.log(myFunction(5,6))
+
+
+//the above function constructor working as same as below example
+var myFunction = function(a,b){
+	return a*b;
+}
+console.log(myFunction(4,5))

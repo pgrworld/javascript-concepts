@@ -1,0 +1,11 @@
+// Annonymous function passing as a parameter in other function
+function myFunction(msg,callback){
+	console.log(msg);
+	callback()
+}
+
+var callback = function(){
+	console.log("testing")
+}
+
+myFunction("annonymous function", callback)

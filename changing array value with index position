@@ -1,0 +1,7 @@
+// changing array value with index position
+var array = ["hero","honda","pulsar","yamha"];
+array[0] = "suzuki";
+console.log(array)
+console.log(array[0])
+//NOTE: output is => [ 'suzuki', 'honda', 'pulsar', 'yamha' ]
+//NOTE2: outpus is  =>  "suzuki"

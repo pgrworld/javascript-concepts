@@ -1,0 +1,8 @@
+// local scope variable(we can access inside function itself only)
+function fun_one(){
+	var text = "private variable";
+	console.log( text)
+}
+fun_one()   // here we can access the variable
+
+console.log(text)  // but here we can't access the variable 

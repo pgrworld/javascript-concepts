@@ -1,0 +1,39 @@
+//GLobal variable decleration(we can access anywhere in the file)
+function myFunction(){
+      x = 100;
+}
+myFunction()
+console.log(x)  //we have to declare the variable without var keyword and calling the function then we can access that vaiable outside the function
+
+//***********************
+test = "p";
+function x(test){
+	console.log(test)
+}
+x(test)
+//Note1: myAssumption is error will be getting why because if the variable name and function parameter if it is same then it may error.
+//Note2: But myAssumptio is wrong output is "p" why because whatever value argument is passsing for fucntion parameter that value will be printed
+//*******************
+
+test  = "p";
+function x(test){
+console.log(test);
+}
+x(2)
+//Note1: myAssumption is output is "2".
+//NOte2: Answer also the same output is "2"
+
+//****************************************
+
+l = "p";
+function fun_one(){
+	y = "test";
+	console.log(a)
+}
+a = "b";
+fun_one()
+console.log(y)
+console.log(a)
+
+//Note: first console is :"b", second console is: "test", third console.is: "b"
+//NOte: if a = "b" is declared after the function then we will get Refference error like: "a"  is not defined 

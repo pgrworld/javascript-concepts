@@ -1,0 +1,104 @@
+// Assigning string to a variable(double quotes)
+var string = "securifi embedded systems";
+console.log(string);
+
+//single quotes
+var string1 = 'securifi embeddes systemss'
+console.log(string1);
+
+//Backticks(we can print multiple line without "\n" )
+var string2 = `securifi
+                   embedded 
+                        systems`;
+
+ console.log(string2);
+ 
+ //"double quotes"(if we want to print multiple lines then we have take "\n")
+ var string3 = "securifi \n embedded \n  systems";
+ console.log(string3);
+ 
+ 
+ // updated variale will be printed
+ var string = "securifi embedded systems";
+ var string = "Nothing is imposible";
+  console.log(string)
+
+
+//if we want to give double quotes for a particular word in a double quotes string
+var string = "i am \"Rahul\"";
+console.log(string)
+
+//if we want to single quotes for a particular word in a single quotes string
+var string = 'it\'s okay';
+console.log(string);
+
+
+//Escape characters
+//  "\b" (backspace)
+var string = "securifi embedded\b systems";
+console.log(string)
+//Note: output is => "securifi embedde systems"
+
+// "\f"(form feed)
+var string = "securifi embedded\f systems";
+console.log(string)
+//Note: output is => securifi embedded
+//                                     systems
+
+
+// "\n"(newline)
+var string = "securifi embedded\n systems";
+console.log(string)
+//Note: output is => securifi embedded
+//systems
+
+// "\r"(carriage return)
+var string = "securifi embedded\r systems";
+console.log(string)
+//Note: output is => systems embedded
+
+
+// "t" (Horizontal Tabulator)
+var string = "securifi embedded\t systems at madhapur";
+console.log(string)
+//Note: output is =>securifi embedded	    systems at madhapur
+
+// "v" (Vertical Tabulator)
+var string = "securifi embedded\v systems at madhapur";
+console.log(string)
+//Note: securifi embedded
+//                        systems at madhapur
+
+
+
+//Assingning string to object
+var obj = {
+	key1 : "swaroop",
+	key2 : "pentakota"
+}
+console.log(obj.key1)
+//Note: output is => swaroop
+
+//Assigning string to function
+function myFunction(){
+	return "assinging string to function";
+}
+console.log(myFunction())
+//Note: output is =>assinging string to function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

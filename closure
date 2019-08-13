@@ -1,0 +1,7 @@
+//closure
+function fun_one(name){
+	var text = "haii   "+ name;
+	var say = function() { console.log(text)};
+	say();
+}
+fun_one("rahul")

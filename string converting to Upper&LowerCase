@@ -1,0 +1,20 @@
+//toUpperCase() method
+var str = "string converting to uppercase";
+var convert = str.toUpperCase();
+console.log(convert)
+//NOTE: output is => "STRING CONVERTING TO UPPERCASE"
+
+//toLowerCase() method
+var str = "STRING CONVERTING TO LOWERCASE";
+var convert = str.toLowerCase();
+console.log(convert)
+//NOTE:output is=> "string converting to lowercase"
+
+
+//if we want to convert a particular letter toUpperCase
+var str = "gowrav rahul";
+var convert = str.charAt(4).toUpperCase();
+console.log(convert)
+//NOTE: output is => "A"
+
+

@@ -1,0 +1,9 @@
+//ARROW function // we can invoke this function after decleration only
+var x = (x,y) => x*y;
+console.log(x(3,5))
+//Note: output is => 15
+
+console.log(x(3,5))
+var x = (x,y) => x*y;
+//Note: output is =>  TypeError: x is not a function
+

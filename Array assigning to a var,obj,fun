@@ -1,0 +1,27 @@
+//Array assigning to a variable
+var bikes = ["hero","honda","pulsar","yamha"];
+console.log(bikes)
+console.log(bikes[3])
+//NOTE: output is => [ 'hero', 'honda', 'pulsar', 'yamha' ]
+//NOTE2: output is => "yamha";
+
+
+// Array assigning to a obj
+var obj = {
+	key1 : ["hero","honda","pulsar","yamha"],
+	key2 : ["bmw","audi","benz ","alto"]
+}
+console.log(obj.key2[]);
+console.log(obj.key1[2]);
+//NOTE: output is =>[ 'bmw', 'audi', 'benz ', 'alto' ]
+//NOTE: outpus is => "pulsar"
+
+
+//Array assign to a function
+var x = function(){
+	return  array = ["hero","honda","pulsar","yamha"];
+}
+console.log(x()[3]);
+//NOTE: outpus is => "yamha"
+
+
