@@ -1,4 +1,4 @@
-//If we want to give the input at run time in the console 
+//If we want to give the input at run time in the console (npm install readline-module)
 
 const readline = require('readline').createInterface({
   input: process.stdin,
