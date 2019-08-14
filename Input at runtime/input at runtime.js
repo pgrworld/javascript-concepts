@@ -1,4 +1,5 @@
 //If we want to give the input at run time in the console (npm install readline-module)
+//  https://flaviocopes.com/node-input-from-cli/
 
 const readline = require('readline').createInterface({
   input: process.stdin,
